@@ -3,25 +3,67 @@ html, body {
     margin: 0;
     width: 100%;
     height: 100%;
-    cursor: none;
+    font-family: 'Quicksand', sans-serif;
+    background-color: black;
 }
-canvas {
+
+.top {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    padding-left: 44vw;
+    color: white;
+    text-align: center;
 }
-span {
-    color: red;
-    bottom: 0px;
-    position: absolute;
-    right: 0px;
-    display: none;
-    font-size: 40pt;
-    font-weight: bold;
-    text-align: right;
-    vertical-align: bottom;
-    font-family: monospace;
-    display:none;
+
+::-webkit-scrollbar {
+    width: .5em;
+}
+
+::-webkit-scrollbar-track {
+    background: darkslategray;
+    border-radius: 100vw;
+    margin-block: .5em;
+}
+
+::-webkit-scrollbar-thumb {
+    background:lightgray;
+    border-radius: 100vw;
+    border: .25em solid transparent;
+}
+
+.pokemon {
+    color: white;
+    padding-left: 2vw;
+    padding-top: 5vh;
+    font-size: 1.25vw;
+}
+
+.pokemon-li {
+    color: white;
+    padding-left: 3vw;
+    font-size: 1.vw;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.party {
+    color: white;
+    font-size: 1.25vw;
+}
+
+.partyli {
+    color: white;
+    font-size: 1.vw;
+}
+
+.mario {
+    color: white;
+    font-size: 1.25vw;
+}
+
+.marioli {
+    color: white;
+    font-size: 1.vw;
 }
