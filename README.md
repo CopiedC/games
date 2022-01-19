@@ -1,1 +1,1 @@
-# ouroboroz.github.io
+# https://copiedc.github.io/games/gba/
