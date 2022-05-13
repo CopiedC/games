@@ -16,7 +16,10 @@ ul {
   padding-top: 30px;
   padding-left: 30px;
   overflow: hidden;
-  
+}
+
+.nav {
+  padding-top: 20px;
 }
 
 .logobutton {
