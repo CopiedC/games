@@ -1,1 +1,1 @@
-# https://copiedc.github.io/games/gba/
+# https://copiedc.github.io/games/gba/game.html
